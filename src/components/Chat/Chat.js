@@ -9,7 +9,7 @@ import Messages from '../Messages/Messages'
 let socket
 
 export default function Chat({ location }) {
-    const ENDPOINT = 'localhost:5000'
+    const ENDPOINT = 'https://chat-app-mapden.herokuapp.com/'
     const [name, setName] = useState('')
     const [room, setRoom] = useState('')
     const [message, setMessage] = useState('')
